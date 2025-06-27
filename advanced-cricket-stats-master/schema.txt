@@ -1,0 +1,49 @@
+Below are some basic metrics on each ball.
+1. series_name STRING
+2. tournament_name STRING
+3. season STRING
+4. date DATE
+5. ball INTEGER
+6. match_type STRING
+7. match_no INTEGER
+8. team_bat STRING
+9. team_bowl STRING
+10. winner STRING
+11. toss STRING
+12. match_outcome STRING
+13. target STRING
+14. max_balls STRING
+15. wides INTEGER
+16. noballs INTEGER
+17. byes INTEGER
+18. legbyes INTEGER
+19. penalty INTEGER
+20. current_match_inning_number INTEGER
+21. overs INTEGER
+24. batter_runs INTEGER
+25. extras_runs INTEGER
+26. score INTEGER
+27. player_out STRING
+28. out INTEGER
+29. dismissal STRING
+30. balls_faced INTEGER
+31. bowler_runs INTEGER
+32. batter_out INTEGER
+33. batter_hand STRING
+34. batter STRING
+35. bowler_type STRING
+36. bowler STRING
+37. bowler_kind STRING
+Below are aggregated metrics till that particular ball.
+Use below columns for calculating any queries related to consecutive or any query in specific situaion
+
+38. curr_inngs_score INTEGER
+39. curr_inngs_balls INTEGER
+40. curr_inngs_wkts INTEGER
+41. curr_batter_runs FLOAT
+42. curr_batter_balls_faced FLOAT
+43. cur_bowler_runs FLOAT
+44. curr_bowler_balls_bowled FLOAT
+45. curr_bowler_wickets FLOAT
+46.venue String
+
